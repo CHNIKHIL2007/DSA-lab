@@ -1,0 +1,18 @@
+#include<stdio.h>
+#define MAX 5
+void main()
+{
+    int a[5],i,val,top=-1;
+    void push();
+    {
+        if(top==MAX-1)
+           printf("Stack Overflow\n");
+        printf("Enter the element to be inserted:\n ");
+        scanf("%d", &a[val]);
+        a[++top]=val;
+        printf("%d pushed into stack./n"val);
+                 
+    
+    }
+    
+          
